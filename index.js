@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const generateMarkdown = require("./utils.generateMarkdown.js")
+const generateMarkdown = require("./utils")
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -40,7 +40,7 @@ const questions = [
         type: 'list',
         message: 'Please choose a license for your README:',
         name: 'license',
-        choices: ['No License','MIT License','Apache License 2.0','GNU General Public License v3.0','BSD 2-Clause License','Boost Software License 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public License 2.0','Mozilla Public License 2.0','The Unlicense']
+        choices: ['No License','Apache','Boost','BSD','Creative Commons','Eclipse','GNU','The Organization for Ethical Source','IBM','ISC','MIT','Mozilla','Open Data Commons','Perl','SIL','The Unlicense','WTFPL','Zlib']
     }, 
     {
         type: 'input',
