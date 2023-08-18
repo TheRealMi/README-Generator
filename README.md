@@ -23,9 +23,9 @@ You can access this project by visiting the github repo: https://github.com/TheR
 4. Follow the prompts shown in the terminal
 5. Find your brand new README.md file located in the "output" folder
     
-    ```
+ 
     ![Application screenshot](./images/Screenshot.PNG)
-    ```
+  
 
 ## Credits
 
