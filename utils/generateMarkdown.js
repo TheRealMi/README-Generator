@@ -124,7 +124,7 @@ function renderLicenseSection(license) {
     return '';
   }
   else{
-    return `This project uses ${data.license}. Please refer to licencing documentation by clicking this link: ${renderLicenseLink(data.license)}`
+    return `This project uses ${license}. Please refer to licencing documentation by clicking this link: ${renderLicenseLink(license)}`
   }
 }
 
@@ -170,7 +170,7 @@ function generateMarkdown(data) {
   ## Questions
   <ul>
     <li> <a href="https://github.com/${data.gitUser}">My Github Profile </a></li>
-    <li> <a href="mailto:${email}"> My Email </a></li>
+    <li> <a href="mailto:${data.email}"> My Email </a></li>
   </ul>
   If you have any questions feel free to reach out via email! 
   Include "${data.title}" in the subject line
