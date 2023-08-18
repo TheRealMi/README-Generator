@@ -13,11 +13,7 @@ The README Generator is a tool for developers to quickly and easily generate a R
 
 ## Installation
 
-1. Clone repo to your computer
-2. Open the code in a new integrated terminal
-3. Run the application in the terminal by typing "node index.js"
-4. Follow the prompts shown in the terminal
-5. Find your brand new README.md file located in the "output" folder
+You can access this project by visiting the github repo: https://github.com/TheRealMi/README-Generator
 
 ## Usage
 
@@ -28,7 +24,7 @@ The README Generator is a tool for developers to quickly and easily generate a R
 5. Find your brand new README.md file located in the "output" folder
     
     ```
-    ![Application screenshot](assets/images/screenshot.png)
+    ![Application screenshot](./images/Screenshot.PNG)
     ```
 
 ## Credits
